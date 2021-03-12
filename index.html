@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="tailwind.css" rel="stylesheet">
+  <title>Thomas Karam</title>
+</head>
+<body class="bg-gray-500">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">
+                  <i class="fa fa-play-circle"></i>  <span class="light">Home</span>
+              </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                      <a href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#about">About</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#portfolio">Portfolio</a>
+                  </li>
+      <li>
+    <a href="https://medium.com/@tom.karam">Blog</a>
+      </li>
+                  <li>
+                      <a class="page-scroll" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+
+  <!-- Intro Header -->
+  <header class="intro">
+      <div class="intro-body">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                      <h1 class="brand-heading">Thomas Karam</h1>
+                      <p class="intro-text">android and open source enthusiast</p>
+    <p><a href="https://github.com/flynn81"><i class="fa fa-github fa-fw topIcon"></i></a><a href="https://twitter.com/thomaskaram"><i class="fa fa-twitter fa-fw topIcon"></i></a><a href="https://www.linkedin.com/in/thomaskaram"><i class="topIcon fa fa-linkedin fa-fw"></i></a></p>
+                      <a href="#about" class="btn btn-circle page-scroll">
+                          <i class="fa fa-angle-double-down animated"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container content-section text-center">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2>About Thomas Karam</h2>
+              <p>I'm Thomas Karam. I am an Android developer, with over 12 years experience in IT. The past 5 years have been all Android, which I love! Scroll down below to see some of my work.</p>
+          </div>
+      </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="container content-section text-center">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2>Portfolio</h2>
+              <p>I'm Thomas Karam. I am an Android developer, with over 12 years experience in IT. The past 5 years have been all Android, which I love! Scroll down below to see some of my work, or <a href="#contact" class="page-scroll" >contact</a> me for more information.</p>
+          </div>
+      </div>
+      <div class="row-fluid">
+          <div class="col-sm-4"><p><a class="page-scroll" href="#dtv"><img src="/img/icon_dtv.png" /></a></p></div>
+          <div class="col-sm-4"><p><a class="page-scroll" href="#santa"><img src="/img/icon_santa.png" /></a></p></div>
+          <div class="col-sm-4"><p><a class="page-scroll" href="#clsa"><img src="/img/icon_clsa.png" /></a></p></div>
+      </div>
+<div class="row-fluid">
+          <div class="col-sm-4"><p><a class="page-scroll" href="#turtlebeach"><img src="/img/icon_tb.png" /></a></p></div>
+          <div class="col-sm-4"><p><a class="page-scroll" href="#viggle"><img src="/img/icon_viggle.png" /></a></p></div>
+          <div class="col-sm-4"><p><a class="page-scroll" href="#ti"><img src="/img/icon_ti.png" /></a></p></div>
+      </div>
+  </section>
+
+  <!-- Santa Tracker Section -->
+  <section id="santa" class="container content-section text-center">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2><img src="/img/icon_santa.png" />Santa Tracker</h2>
+              <p>From Google Play <i>"Play games with elves in jetpacks, rolling gumballs, sleighs powered by rockets and Google Cardboard. Once the 24th arrives, follow Santa in his journey around the world."</i></p>
+          </div>
+      </div>
+<div class="row-fluid">
+         <div class="col-md-8">
+    <ul>
+  <li style="text-align: left;">Main responsibility was the development the "Dasher Dancer" mini-game. Overall worked with a team of 3 developers to complete 3 minigames for the app.</li>
+  <li style="text-align: left;">Implemented custom <a href="https://developer.android.com/reference/android/view/GestureDetector.OnGestureListener.html">OnGestureListener</a></li>
+  <li style="text-align: left;">Used the <a href="https://developer.android.com/reference/android/hardware/Sensor.html">Sensor</a> class to detect the device being shook, using the accelerometer</li>
+  <li style="text-align: left;"><a href="https://developer.android.com/reference/android/graphics/drawable/AnimationDrawable.html">AnimationDrawables</a> were used to provide animations while characters where idle and when a gesture or shake occurred</li>
+  <li style="text-align: left;">Extensive performance tuning, including reducing overdraw and and analyzing <a href="https://developer.android.com/tools/help/systrace.html">systrace</a> results</li>
+    </ul>
+         </div>
+</div>
+      <div class="row-fluid">
+          <div class="col-md-4">
+              <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.santatracker&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img style="width: 200px;" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge-border.png" /></a>
+          </div>
+      </div>
+  </section>
+
+  <!-- Viggle Section -->
+  <section id="viggle" class="container content-section text-center">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2><img src="/img/icon_viggle.png" />Viggle</h2>
+              <p>Viggle is a second screen app, providing rewards to their users for using the app while watching TV. Users would check into a TV show to earn rewards and play mini-games to earn additional rewards.</p>
+          </div>
+      </div>
+<div class="row-fluid">
+         <div class="col-md-8">
+    <ul>
+  <li style="text-align: left;">Developed and maintained a real time fantasy sports mini-game for football and basketball</li>
+  <li style="text-align: left;">Worked with <a href="https://developer.android.com/reference/android/webkit/WebView.html">WebView</a>, <a href="https://developer.android.com/reference/android/webkit/WebViewClient.html">WebViewClient</a>, and <a href="https://developer.android.com/reference/android/webkit/JavascriptInterface.html">JavascriptInterface</a> classes</li>
+  <li style="text-align: left;">Server was written in Java, utilizing <a href="http://akka.io/">Akka</a> for messaging between components</li>
+            <li style="text-align: left;">Events were pushed to the app in real time using <a href="https://www.pubnub.com/">PubNub</a></li>
+    </ul>
+         </div>
+</div>
+      <div class="row-fluid">
+          <div class="col-md-4">
+              <a href="https://play.google.com/store/apps/details?id=com.functionx.viggle&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img style="width: 200px;" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge-border.png" /></a>
+          </div>
+      </div>
+  </section>
+
+  <!-- CLSA Section -->
+  <section id="clsa" class="container content-section text-center">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2><img src="/img/icon_clsa.png" /></h2>
+              <p>CLS America's Thorium product is a satellite based communication system for fishing vessels. A tablet app communicates via bluetooth to the satellite hardware. With the app the user can view weather reports, email, GPS coordinates, and file reports to fisheries about their catch.</p>
+          </div>
+      </div>
+<div class="row-fluid">
+         <div class="col-md-4">
+    <ul>
+  <li style="text-align: left;">Integrated the open source library <a href="https://opendatakit.org/">OpenDataKit</a> to handle parsing and display of XML based forms</li>
+            <li style="text-align: left;">Customized OpenDataKit library with a custom domain specific language, which I defined, to provide dynamic form functionality</li>
+  <li style="text-align: left;">Created custom Layout extending <a href="https://developer.android.com/reference/android/view/ViewGroup.html">ViewGroup</a>, used in a map to display wind direction and weather event paths</li>
+  <li style="text-align: left;">Used bluetooth to communicate with the satellite hardware using a serial protocol</li>
+    </ul>
+    </div>
+ </div>
+      <div class="row-fluid">
+          <div class="col-md-8">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/uy_23_IwajU?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+      </div>
+  </section>
+
+  <!-- Directv Section -->
+  <section id="dtv" class="container content-section text-center">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2>DIRECTV</h2>
+              <p>Worked with a team of 10 developers on a tablet specific app. The app's primary functionality was to act as a TV guide. It could additionally stream video, manage a DVR, and act as a remote control.</p>
+          </div>
+      </div>
+<div class="row-fluid">
+         <div class="col-md-8">
+          <ul>
+              <li style="text-align: left;">Developed a horizontal scrolling <a href="https://developer.android.com/reference/android/widget/ListView.html">ListView</a> (this was before the release of the RecyclerView)</li>
+              <li style="text-align: left;">Helped provide guidance to junior developers</li>
+              <li style="text-align: left;">Triage management to bring the app to market</li>
+          </ul>
+</div>
+      </div>
+<div class="row-fluid">
+         <div class="col-md-4">
+  <a href="https://play.google.com/store/apps/details?id=com.directv.navigator&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img style="width: 200px;" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge-border.png" /></a>
+</div>
+      </div>
+  </section>
+
+  <!-- Turtle Beach Section -->
+  <section id="turtlebeach" class="container content-section text-center">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2><img src="/img/icon_tb.png" />Turtle Beach Kiosk</h2>
+              <p>Turtle Beach is a gaming headset manufacturer, and their headset kiosk is in Gamestop and BestBuy stores across the country. At the heart of the kiosk is a tablet running a custom app displaying production information. Please read more of the project <a href="http://www.applicoinc.com/work/turtle-beach-headset-kiosk/" class="page-scroll">here</a>.</p>
+              <p><a class="page-scroll" href="http://www.prnewswire.com/news-releases/best-buy-and-turtle-beach-rollout-new-cutting-edge-tablet-based-interactive-audio-kiosk-program-175594261.html">Read the press release here.</a></p>
+          </div>
+      </div>
+<div class="row-fluid">
+         <div class="col-md-8 col-md-offset-2">
+          <ul>
+              <li style="text-align: left;">Developed from scratch a full screen application, utilizing rooting techniques to disable status and notification bars</li>
+              <li style="text-align: left;">Created methods to update content on the tablet via both a polling of content servers when wifi was present, but also via manual intervention with an SDCard inserted into the device.</li>
+          </ul>
+     </div>
+      </div>
+  </section>
+
+  <!-- Texas Instruments Section -->
+  <section id="ti" class="container content-section text-center">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2><img src="/img/icon_ti.png" />Texas Instruments</h2>
+              <p>From Google Play <i>"TI's app is the design enginer's best resource for information related to TI's products. Search for parts, technical documents, and application block diagrams in English and Chinese. View datasheets, pricing, inventory and purchase options for parts. Plan your designs from any place with 3G or WiFi access and share the information with your colleagues."</i></p>
+          </div>
+      </div>
+<div class="row-fluid">
+         <div class="col-md-8">
+          <ul>
+              <li style="text-align: left;">Helped develop product catalog screens utilizing <a href="https://developer.android.com/reference/android/app/TabActivity.html">TabActivities</a></li>
+              <li style="text-align: left;">Created pre-installed <a href="https://developer.android.com/reference/android/database/sqlite/package-summary.html">SQLite</a> database which would install on first launch of the app</li>
+              <li style="text-align: left;">Developed an update process of the SQLite database using another database for updates from the store due to large data updates not feasible to handle exclusively in the <a href="https://developer.android.com/reference/android/database/sqlite/SQLiteOpenHelper.html">SQLiteOpenHelper.onUpgrade()</a> method</li>
+          </ul>
+</div>
+      </div>
+      <div class="row-fluid">
+<div class="col-md-4">
+          <a href="https://play.google.com/store/apps/details?id=com.ti.product.ui&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img style="width: 200px;" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge-border.png" /></a>
+</div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container content-section text-center">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2>Contact Thomas Karam</h2>
+              <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+              <p><a href="mailto:tom.karam@gmail.com">tom.karam@gmail.com</a>
+              </p>
+              <ul class="list-inline banner-social-buttons">
+                  <li>
+                      <a href="https://twitter.com/thomaskaram" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                  </li>
+                  <li>
+                      <a href="https://github.com/flynn81" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                  </li>
+                  <li>
+                      <a href="https://plus.google.com/+ThomasKaram" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                  </li>
+      <li>
+    <a href="https://www.linkedin.com/pub/thomas-karam/6/a99/687" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+      </li>
+              </ul>
+          </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+      <div class="container text-center">
+          <p>Copyright &copy; ThomasKaram.com 2016</p>
+      </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="js/grayscale.js"></script>
+
+</body>
+</html>
